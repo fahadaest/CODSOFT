@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <div class="todo-container">
+
+        <!-- Heading Div -->
+        <div class="heading-container">
+            <h2>My To-Do List</h2>
+        </div>
+
+        <!-- Task Div -->
+        <div class="list-container">
+            
+            <!-- Div for adding tasks -->
+            <div class="adding-task-container">
+                <input type="text" id="input-box" placeholder="Add your Task here">
+                <button onclick=addingTaskToList()>Add Task</button>
+            </div>
+
+            <!-- Div for displaying tasks -->
+            <div class="task-display-container">
+                <ul id="list-container">
+                    <!-- <li class="completed-task">Task 1</li>
+                    <li>Task 2</li>
+                    <li>Task 3</li> -->
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
