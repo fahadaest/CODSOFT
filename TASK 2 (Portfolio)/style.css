@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(35, 35, 35);
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(24, 24, 24);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: #68e2fd;
+    font-size: 17px;
+}
+
+.left-items a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.left-items a:hover{
+    text-decoration: none;
+    color: #68e2fd;
+}
+
+.fsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 23px 0;
+}
+
+.fsection-left{
+    font-size: 2.5rem;
+}
+
+.fsection-right{
+    width: 30%;
+}
+
+.fsection-right img{
+    width: 80%;
+    margin: 100px 55px;
+}
+
+.name{
+    color:#68e2fd;
+}
+
+.fsection-left button{
+
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 8px;
+    background-color: #68e2fd;
+    color: black;
+    font-size: 20px;
+}
+
+.fsection-left button:hover{
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+.but-a{
+    width: 200px;
+}
+
+.but-b{
+    width: 140px;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.page-option{
+    color: #68e2fd;
+}
+
+.about-heading{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.me-paragraph{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.skills{
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 50px;
+}
+
+.goals{
+    margin-left: 500px;
+    margin-top: 50px;
+    margin-right: 500px;
+}
